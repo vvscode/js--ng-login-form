@@ -1,0 +1,18 @@
+<div class="container">
+
+  <div>
+    <acme-navbar></acme-navbar>
+  </div>
+
+  <div ng-if="main.authState.isAuthentificated">
+    <div class="jumbotron text-center">
+      <h1>Hi, we know you!</h1>
+    </div>
+  </div>
+  <div ng-if="!main.authState.isAuthentificated">
+    <div class="jumbotron text-center">
+      <h2>Sorry, we don't recognize you. Please authorize:</h2>
+    </div>
+    <auth-form submit-handler="main.onSubmit(login, password)">
+  </div>
+</div>
