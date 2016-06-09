@@ -50,6 +50,6 @@
   },
   "scripts": {
     "start": "npm install; bower install; gulp serve",
-    "build": "npm install; bower install; gulp",
+    "build": "npm install; bower install; gulp"
   }
 }
