@@ -10,7 +10,7 @@ import { UsersService } from '../app/components/usersService/users.service';
 import { NavbarDirective } from '../app/components/navbar/navbar.directive';
 import { AuthFormDirective } from '../app/components/auth-form/auth-form.directive';
 
-angular.module('jsNgLoginForm', ['ngMessages', 'ui.router', 'toastr'])
+angular.module('jsNgLoginForm', ['ngMessages', 'ui.router'])
   .constant('moment', moment)
   .config(config)
   .config(routerConfig)
