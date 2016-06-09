@@ -8,3 +8,5 @@ Gulp tasks:
 - `$ gulp dist` build project into dist directory
 
 Or just `npm run start`
+
+Credentials are at [users.json](https://github.com/vvscode/js--ng-login-form/blob/master/src/fake-api/users.json)
