@@ -5,12 +5,12 @@
   </div>
 
   <div ng-if="main.authState.isAuthentificated">
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center known-user">
       <h1>Hi, we know you!</h1>
     </div>
   </div>
   <div ng-if="!main.authState.isAuthentificated">
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center unknown-user">
       <h2>Sorry, we don't recognize you. Please authorize:</h2>
     </div>
     <auth-form submit-handler="main.onSubmit(login, password)">
